@@ -1,0 +1,29 @@
+{
+    "type": "object",
+    "properties": {
+        "idWebhook": {
+            "required": true,
+            "type": "string"
+        },
+        "key": {
+            "required": true,
+            "type": "string"
+        },
+        "token": {
+            "required": true,
+            "type": "string"
+        },
+        "requestBody": {
+            "properties": {
+                "value": {
+                    "description": "id of the model to be monitored",
+                    "type": "string"
+                }
+            },
+            "type": "object",
+            "xml": {
+                "name": "webhook"
+            }
+        }
+    }
+}

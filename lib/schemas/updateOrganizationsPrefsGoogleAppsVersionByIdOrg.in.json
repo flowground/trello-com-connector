@@ -1,0 +1,29 @@
+{
+    "type": "object",
+    "properties": {
+        "idOrg": {
+            "required": true,
+            "type": "string"
+        },
+        "key": {
+            "required": true,
+            "type": "string"
+        },
+        "token": {
+            "required": true,
+            "type": "string"
+        },
+        "requestBody": {
+            "properties": {
+                "value": {
+                    "description": "a number from 1 to 2",
+                    "type": "string"
+                }
+            },
+            "type": "object",
+            "xml": {
+                "name": "organization"
+            }
+        }
+    }
+}

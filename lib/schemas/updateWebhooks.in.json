@@ -1,0 +1,37 @@
+{
+    "type": "object",
+    "properties": {
+        "key": {
+            "required": true,
+            "type": "string"
+        },
+        "token": {
+            "required": true,
+            "type": "string"
+        },
+        "requestBody": {
+            "properties": {
+                "active": {
+                    "description": " true or false",
+                    "type": "string"
+                },
+                "callbackURL": {
+                    "description": "A valid URL that is reachable with a HEAD request",
+                    "type": "string"
+                },
+                "description": {
+                    "description": "a string with a length from 0 to 16384",
+                    "type": "string"
+                },
+                "idModel": {
+                    "description": "id of the model that should be hooked",
+                    "type": "string"
+                }
+            },
+            "type": "object",
+            "xml": {
+                "name": "webhook"
+            }
+        }
+    }
+}

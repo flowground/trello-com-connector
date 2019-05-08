@@ -1,0 +1,33 @@
+{
+    "type": "object",
+    "properties": {
+        "token": {
+            "required": true,
+            "type": "string"
+        },
+        "key": {
+            "required": true,
+            "type": "string"
+        },
+        "requestBody": {
+            "properties": {
+                "callbackURL": {
+                    "description": "A valid URL that is reachable with a HEAD request",
+                    "type": "string"
+                },
+                "description": {
+                    "description": "a string with a length from 0 to 16384",
+                    "type": "string"
+                },
+                "idModel": {
+                    "description": "id of the model to be monitored",
+                    "type": "string"
+                }
+            },
+            "type": "object",
+            "xml": {
+                "name": "token"
+            }
+        }
+    }
+}

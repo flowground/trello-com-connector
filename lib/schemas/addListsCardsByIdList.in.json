@@ -1,0 +1,45 @@
+{
+    "type": "object",
+    "properties": {
+        "idList": {
+            "required": true,
+            "type": "string"
+        },
+        "key": {
+            "required": true,
+            "type": "string"
+        },
+        "token": {
+            "required": true,
+            "type": "string"
+        },
+        "requestBody": {
+            "properties": {
+                "desc": {
+                    "description": "a string with a length from 0 to 16384",
+                    "type": "string"
+                },
+                "due": {
+                    "description": "A date, or null",
+                    "type": "string"
+                },
+                "idMembers": {
+                    "description": "A comma-separated list of objectIds, 24-character hex strings",
+                    "type": "string"
+                },
+                "labels": {
+                    "description": "all or a comma-separated list of: blue, green, orange, purple, red or yellow",
+                    "type": "string"
+                },
+                "name": {
+                    "description": "a string with a length from 1 to 16384",
+                    "type": "string"
+                }
+            },
+            "type": "object",
+            "xml": {
+                "name": "list"
+            }
+        }
+    }
+}

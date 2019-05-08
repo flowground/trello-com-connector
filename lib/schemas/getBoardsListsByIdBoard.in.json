@@ -1,0 +1,37 @@
+{
+    "type": "object",
+    "properties": {
+        "idBoard": {
+            "required": true,
+            "type": "string"
+        },
+        "cards": {
+            "required": false,
+            "type": "string",
+            "default": "none"
+        },
+        "card_fields": {
+            "required": false,
+            "type": "string",
+            "default": "all"
+        },
+        "filter": {
+            "required": false,
+            "type": "string",
+            "default": "open"
+        },
+        "fields": {
+            "required": false,
+            "type": "string",
+            "default": "all"
+        },
+        "key": {
+            "required": true,
+            "type": "string"
+        },
+        "token": {
+            "required": true,
+            "type": "string"
+        }
+    }
+}

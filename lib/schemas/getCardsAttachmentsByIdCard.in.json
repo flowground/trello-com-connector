@@ -1,0 +1,26 @@
+{
+    "type": "object",
+    "properties": {
+        "idCard": {
+            "required": true,
+            "type": "string"
+        },
+        "fields": {
+            "required": false,
+            "type": "string",
+            "default": "all"
+        },
+        "filter": {
+            "required": false,
+            "type": "string"
+        },
+        "key": {
+            "required": true,
+            "type": "string"
+        },
+        "token": {
+            "required": true,
+            "type": "string"
+        }
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "type": "object",
+    "properties": {
+        "idBoard": {
+            "required": true,
+            "type": "string"
+        },
+        "cards": {
+            "required": false,
+            "type": "string",
+            "default": "none"
+        },
+        "card_fields": {
+            "required": false,
+            "type": "string",
+            "default": "all"
+        },
+        "checkItems": {
+            "required": false,
+            "type": "string",
+            "default": "all"
+        },
+        "checkItem_fields": {
+            "required": false,
+            "type": "string",
+            "default": "name, nameData, pos and state"
+        },
+        "filter": {
+            "required": false,
+            "type": "string",
+            "default": "all"
+        },
+        "fields": {
+            "required": false,
+            "type": "string",
+            "default": "all"
+        },
+        "key": {
+            "required": true,
+            "type": "string"
+        },
+        "token": {
+            "required": true,
+            "type": "string"
+        }
+    }
+}

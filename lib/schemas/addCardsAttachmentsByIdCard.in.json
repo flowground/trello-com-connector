@@ -1,0 +1,41 @@
+{
+    "type": "object",
+    "properties": {
+        "idCard": {
+            "required": true,
+            "type": "string"
+        },
+        "key": {
+            "required": true,
+            "type": "string"
+        },
+        "token": {
+            "required": true,
+            "type": "string"
+        },
+        "requestBody": {
+            "properties": {
+                "file": {
+                    "description": "A file",
+                    "type": "string"
+                },
+                "mimeType": {
+                    "description": "a string with a length from 0 to 256",
+                    "type": "string"
+                },
+                "name": {
+                    "description": "a string with a length from 0 to 256",
+                    "type": "string"
+                },
+                "url": {
+                    "description": "A URL starting with http:// or https:// or null",
+                    "type": "string"
+                }
+            },
+            "type": "object",
+            "xml": {
+                "name": "card"
+            }
+        }
+    }
+}

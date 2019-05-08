@@ -1,0 +1,29 @@
+{
+    "type": "object",
+    "properties": {
+        "idMember": {
+            "required": true,
+            "type": "string"
+        },
+        "key": {
+            "required": true,
+            "type": "string"
+        },
+        "token": {
+            "required": true,
+            "type": "string"
+        },
+        "requestBody": {
+            "properties": {
+                "value": {
+                    "description": "-1 (disabled), 1 or 60",
+                    "type": "string"
+                }
+            },
+            "type": "object",
+            "xml": {
+                "name": "member"
+            }
+        }
+    }
+}

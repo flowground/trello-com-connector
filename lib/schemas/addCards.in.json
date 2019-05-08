@@ -1,0 +1,85 @@
+{
+    "type": "object",
+    "properties": {
+        "key": {
+            "required": true,
+            "type": "string"
+        },
+        "token": {
+            "required": true,
+            "type": "string"
+        },
+        "requestBody": {
+            "properties": {
+                "closed": {
+                    "description": " true or false",
+                    "type": "string"
+                },
+                "desc": {
+                    "description": "a string with a length from 0 to 16384",
+                    "type": "string"
+                },
+                "due": {
+                    "description": "A date, or null",
+                    "type": "string"
+                },
+                "fileSource": {
+                    "description": "A file",
+                    "type": "string"
+                },
+                "idAttachmentCover": {
+                    "description": "Id of the image attachment of this card to use as its cover, or null for no cover",
+                    "type": "string"
+                },
+                "idBoard": {
+                    "description": "id of the board the card should be moved to",
+                    "type": "string"
+                },
+                "idCardSource": {
+                    "description": "The id of the card to copy into a new card.",
+                    "type": "string"
+                },
+                "idLabels": {
+                    "description": "A comma-separated list of objectIds, 24-character hex strings",
+                    "type": "string"
+                },
+                "idList": {
+                    "description": "id of the list that the card should be added to",
+                    "type": "string"
+                },
+                "idMembers": {
+                    "description": "A comma-separated list of objectIds, 24-character hex strings",
+                    "type": "string"
+                },
+                "keepFromSource": {
+                    "description": "Properties of the card to copy over from the source.",
+                    "type": "string"
+                },
+                "labels": {
+                    "description": "all or a comma-separated list of: blue, green, orange, purple, red or yellow",
+                    "type": "string"
+                },
+                "name": {
+                    "description": "The name of the new card.  It isn&#39;t required if the name is being copied from provided by a URL, file or card that is being copied.",
+                    "type": "string"
+                },
+                "pos": {
+                    "description": "A position. top , bottom , or a positive number.",
+                    "type": "string"
+                },
+                "subscribed": {
+                    "description": " true or false",
+                    "type": "string"
+                },
+                "urlSource": {
+                    "description": "A URL starting with http:// or https:// or null",
+                    "type": "string"
+                }
+            },
+            "type": "object",
+            "xml": {
+                "name": "card"
+            }
+        }
+    }
+}

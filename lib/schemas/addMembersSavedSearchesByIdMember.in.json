@@ -1,0 +1,37 @@
+{
+    "type": "object",
+    "properties": {
+        "idMember": {
+            "required": true,
+            "type": "string"
+        },
+        "key": {
+            "required": true,
+            "type": "string"
+        },
+        "token": {
+            "required": true,
+            "type": "string"
+        },
+        "requestBody": {
+            "properties": {
+                "name": {
+                    "description": "A non-empty string with at least one non-space character",
+                    "type": "string"
+                },
+                "pos": {
+                    "description": "A position. top , bottom , or a positive number.",
+                    "type": "string"
+                },
+                "query": {
+                    "description": "a string with a length from 1 to 16384",
+                    "type": "string"
+                }
+            },
+            "type": "object",
+            "xml": {
+                "name": "member"
+            }
+        }
+    }
+}

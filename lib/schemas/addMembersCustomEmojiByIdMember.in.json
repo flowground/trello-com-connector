@@ -1,0 +1,33 @@
+{
+    "type": "object",
+    "properties": {
+        "idMember": {
+            "required": true,
+            "type": "string"
+        },
+        "key": {
+            "required": true,
+            "type": "string"
+        },
+        "token": {
+            "required": true,
+            "type": "string"
+        },
+        "requestBody": {
+            "properties": {
+                "file": {
+                    "description": "A file",
+                    "type": "string"
+                },
+                "name": {
+                    "description": "a string with a length from 2 to 64",
+                    "type": "string"
+                }
+            },
+            "type": "object",
+            "xml": {
+                "name": "member"
+            }
+        }
+    }
+}

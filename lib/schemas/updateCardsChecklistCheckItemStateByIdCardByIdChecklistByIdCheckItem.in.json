@@ -1,0 +1,37 @@
+{
+    "type": "object",
+    "properties": {
+        "idCard": {
+            "required": true,
+            "type": "string"
+        },
+        "idChecklist": {
+            "required": true,
+            "type": "string"
+        },
+        "idCheckItem": {
+            "required": true,
+            "type": "string"
+        },
+        "key": {
+            "required": true,
+            "type": "string"
+        },
+        "token": {
+            "required": true,
+            "type": "string"
+        },
+        "requestBody": {
+            "properties": {
+                "value": {
+                    "description": "One of: complete, false, incomplete or true",
+                    "type": "string"
+                }
+            },
+            "type": "object",
+            "xml": {
+                "name": "card"
+            }
+        }
+    }
+}

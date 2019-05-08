@@ -1,0 +1,31 @@
+{
+    "type": "object",
+    "properties": {
+        "idMember": {
+            "required": true,
+            "type": "string"
+        },
+        "filter": {
+            "required": false,
+            "type": "string",
+            "default": "all"
+        },
+        "fields": {
+            "required": false,
+            "type": "string",
+            "default": "all"
+        },
+        "paid_account": {
+            "required": false,
+            "type": "string"
+        },
+        "key": {
+            "required": true,
+            "type": "string"
+        },
+        "token": {
+            "required": true,
+            "type": "string"
+        }
+    }
+}

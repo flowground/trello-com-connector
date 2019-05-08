@@ -1,0 +1,48 @@
+{
+    "type": "object",
+    "properties": {
+        "idAction": {
+            "required": true,
+            "type": "string"
+        },
+        "display": {
+            "required": false,
+            "type": "string"
+        },
+        "entities": {
+            "required": false,
+            "type": "string"
+        },
+        "fields": {
+            "required": false,
+            "type": "string",
+            "default": "all"
+        },
+        "member": {
+            "required": false,
+            "type": "string"
+        },
+        "member_fields": {
+            "required": false,
+            "type": "string",
+            "default": "avatarHash, fullName, initials and username"
+        },
+        "memberCreator": {
+            "required": false,
+            "type": "string"
+        },
+        "memberCreator_fields": {
+            "required": false,
+            "type": "string",
+            "default": "avatarHash, fullName, initials and username"
+        },
+        "key": {
+            "required": true,
+            "type": "string"
+        },
+        "token": {
+            "required": true,
+            "type": "string"
+        }
+    }
+}

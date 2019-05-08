@@ -1,0 +1,67 @@
+{
+    "type": "object",
+    "properties": {
+        "idMember": {
+            "required": true,
+            "type": "string"
+        },
+        "entities": {
+            "required": false,
+            "type": "string"
+        },
+        "display": {
+            "required": false,
+            "type": "string"
+        },
+        "filter": {
+            "required": false,
+            "type": "string",
+            "default": "all"
+        },
+        "read_filter": {
+            "required": false,
+            "type": "string",
+            "default": "all"
+        },
+        "fields": {
+            "required": false,
+            "type": "string",
+            "default": "all"
+        },
+        "limit": {
+            "required": false,
+            "type": "string",
+            "default": "50"
+        },
+        "page": {
+            "required": false,
+            "type": "string",
+            "default": "0"
+        },
+        "before": {
+            "required": false,
+            "type": "string"
+        },
+        "since": {
+            "required": false,
+            "type": "string"
+        },
+        "memberCreator": {
+            "required": false,
+            "type": "string"
+        },
+        "memberCreator_fields": {
+            "required": false,
+            "type": "string",
+            "default": "avatarHash, fullName, initials and username"
+        },
+        "key": {
+            "required": true,
+            "type": "string"
+        },
+        "token": {
+            "required": true,
+            "type": "string"
+        }
+    }
+}

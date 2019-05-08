@@ -1,0 +1,29 @@
+{
+    "type": "object",
+    "properties": {
+        "idCard": {
+            "required": true,
+            "type": "string"
+        },
+        "key": {
+            "required": true,
+            "type": "string"
+        },
+        "token": {
+            "required": true,
+            "type": "string"
+        },
+        "requestBody": {
+            "properties": {
+                "text": {
+                    "description": "a string with a length from 1 to 16384",
+                    "type": "string"
+                }
+            },
+            "type": "object",
+            "xml": {
+                "name": "card"
+            }
+        }
+    }
+}

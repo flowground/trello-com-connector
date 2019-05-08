@@ -1,0 +1,27 @@
+{
+    "type": "object",
+    "properties": {
+        "idBoard": {
+            "required": true,
+            "type": "string"
+        },
+        "fields": {
+            "required": false,
+            "type": "string",
+            "default": "all"
+        },
+        "limit": {
+            "required": false,
+            "type": "string",
+            "default": "50"
+        },
+        "key": {
+            "required": true,
+            "type": "string"
+        },
+        "token": {
+            "required": true,
+            "type": "string"
+        }
+    }
+}

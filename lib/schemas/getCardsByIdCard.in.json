@@ -1,0 +1,122 @@
+{
+    "type": "object",
+    "properties": {
+        "idCard": {
+            "required": true,
+            "type": "string"
+        },
+        "actions": {
+            "required": false,
+            "type": "string"
+        },
+        "actions_entities": {
+            "required": false,
+            "type": "string"
+        },
+        "actions_display": {
+            "required": false,
+            "type": "string"
+        },
+        "actions_limit": {
+            "required": false,
+            "type": "string",
+            "default": "50"
+        },
+        "action_fields": {
+            "required": false,
+            "type": "string",
+            "default": "all"
+        },
+        "action_memberCreator_fields": {
+            "required": false,
+            "type": "string",
+            "default": "avatarHash, fullName, initials and username"
+        },
+        "attachments": {
+            "required": false,
+            "type": "string"
+        },
+        "attachment_fields": {
+            "required": false,
+            "type": "string",
+            "default": "all"
+        },
+        "members": {
+            "required": false,
+            "type": "string"
+        },
+        "member_fields": {
+            "required": false,
+            "type": "string",
+            "default": "avatarHash, fullName, initials and username"
+        },
+        "membersVoted": {
+            "required": false,
+            "type": "string"
+        },
+        "memberVoted_fields": {
+            "required": false,
+            "type": "string",
+            "default": "avatarHash, fullName, initials and username"
+        },
+        "checkItemStates": {
+            "required": false,
+            "type": "string"
+        },
+        "checkItemState_fields": {
+            "required": false,
+            "type": "string",
+            "default": "all"
+        },
+        "checklists": {
+            "required": false,
+            "type": "string",
+            "default": "none"
+        },
+        "checklist_fields": {
+            "required": false,
+            "type": "string",
+            "default": "all"
+        },
+        "board": {
+            "required": false,
+            "type": "string"
+        },
+        "board_fields": {
+            "required": false,
+            "type": "string",
+            "default": "name, desc, descData, closed, idOrganization, pinned, url and prefs"
+        },
+        "list": {
+            "required": false,
+            "type": "string"
+        },
+        "list_fields": {
+            "required": false,
+            "type": "string",
+            "default": "all"
+        },
+        "stickers": {
+            "required": false,
+            "type": "string"
+        },
+        "sticker_fields": {
+            "required": false,
+            "type": "string",
+            "default": "all"
+        },
+        "fields": {
+            "required": false,
+            "type": "string",
+            "default": "badges, checkItemStates, closed, dateLastActivity, desc, descData, due, email, idBoard, idChecklists, idLabels, idList, idMembers, idShort, idAttachmentCover, manualCoverAttachment, labels, name, pos, shortUrl and url"
+        },
+        "key": {
+            "required": true,
+            "type": "string"
+        },
+        "token": {
+            "required": true,
+            "type": "string"
+        }
+    }
+}

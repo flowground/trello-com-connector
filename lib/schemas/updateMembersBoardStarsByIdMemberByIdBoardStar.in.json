@@ -1,0 +1,37 @@
+{
+    "type": "object",
+    "properties": {
+        "idMember": {
+            "required": true,
+            "type": "string"
+        },
+        "idBoardStar": {
+            "required": true,
+            "type": "string"
+        },
+        "key": {
+            "required": true,
+            "type": "string"
+        },
+        "token": {
+            "required": true,
+            "type": "string"
+        },
+        "requestBody": {
+            "properties": {
+                "idBoard": {
+                    "description": "The id of the board to star",
+                    "type": "string"
+                },
+                "pos": {
+                    "description": "A position. top , bottom , or a positive number.",
+                    "type": "string"
+                }
+            },
+            "type": "object",
+            "xml": {
+                "name": "member"
+            }
+        }
+    }
+}

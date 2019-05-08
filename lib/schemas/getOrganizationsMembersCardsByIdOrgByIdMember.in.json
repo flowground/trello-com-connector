@@ -1,0 +1,80 @@
+{
+    "type": "object",
+    "properties": {
+        "idOrg": {
+            "required": true,
+            "type": "string"
+        },
+        "idMember": {
+            "required": true,
+            "type": "string"
+        },
+        "actions": {
+            "required": false,
+            "type": "string"
+        },
+        "attachments": {
+            "required": false,
+            "type": "string"
+        },
+        "attachment_fields": {
+            "required": false,
+            "type": "string",
+            "default": "all"
+        },
+        "members": {
+            "required": false,
+            "type": "string"
+        },
+        "member_fields": {
+            "required": false,
+            "type": "string",
+            "default": "avatarHash, fullName, initials and username"
+        },
+        "checkItemStates": {
+            "required": false,
+            "type": "string"
+        },
+        "checklists": {
+            "required": false,
+            "type": "string",
+            "default": "none"
+        },
+        "board": {
+            "required": false,
+            "type": "string"
+        },
+        "board_fields": {
+            "required": false,
+            "type": "string",
+            "default": "name, desc, closed, idOrganization, pinned, url and prefs"
+        },
+        "list": {
+            "required": false,
+            "type": "string"
+        },
+        "list_fields": {
+            "required": false,
+            "type": "string",
+            "default": "all"
+        },
+        "filter": {
+            "required": false,
+            "type": "string",
+            "default": "visible"
+        },
+        "fields": {
+            "required": false,
+            "type": "string",
+            "default": "all"
+        },
+        "key": {
+            "required": true,
+            "type": "string"
+        },
+        "token": {
+            "required": true,
+            "type": "string"
+        }
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "type": "object",
+    "properties": {
+        "idCard": {
+            "required": true,
+            "type": "string"
+        },
+        "key": {
+            "required": true,
+            "type": "string"
+        },
+        "token": {
+            "required": true,
+            "type": "string"
+        },
+        "requestBody": {
+            "properties": {
+                "image": {
+                    "description": "a string with a length from 0 to 16384",
+                    "type": "string"
+                },
+                "left": {
+                    "description": "undefined",
+                    "type": "string"
+                },
+                "rotate": {
+                    "description": "undefined",
+                    "type": "string"
+                },
+                "top": {
+                    "description": "undefined",
+                    "type": "string"
+                },
+                "zIndex": {
+                    "description": "Valid Z values for stickers, must be an integer",
+                    "type": "string"
+                }
+            },
+            "type": "object",
+            "xml": {
+                "name": "card"
+            }
+        }
+    }
+}

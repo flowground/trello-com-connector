@@ -1,0 +1,73 @@
+{
+    "type": "object",
+    "properties": {
+        "idMember": {
+            "required": true,
+            "type": "string"
+        },
+        "filter": {
+            "required": false,
+            "type": "string",
+            "default": "all"
+        },
+        "fields": {
+            "required": false,
+            "type": "string",
+            "default": "all"
+        },
+        "actions": {
+            "required": false,
+            "type": "string"
+        },
+        "actions_entities": {
+            "required": false,
+            "type": "string"
+        },
+        "actions_limit": {
+            "required": false,
+            "type": "string",
+            "default": "50"
+        },
+        "actions_format": {
+            "required": false,
+            "type": "string",
+            "default": "list"
+        },
+        "actions_since": {
+            "required": false,
+            "type": "string"
+        },
+        "action_fields": {
+            "required": false,
+            "type": "string",
+            "default": "all"
+        },
+        "memberships": {
+            "required": false,
+            "type": "string",
+            "default": "none"
+        },
+        "organization": {
+            "required": false,
+            "type": "string"
+        },
+        "organization_fields": {
+            "required": false,
+            "type": "string",
+            "default": "name and displayName"
+        },
+        "lists": {
+            "required": false,
+            "type": "string",
+            "default": "none"
+        },
+        "key": {
+            "required": true,
+            "type": "string"
+        },
+        "token": {
+            "required": true,
+            "type": "string"
+        }
+    }
+}

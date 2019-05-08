@@ -1,0 +1,94 @@
+{
+    "type": "object",
+    "properties": {
+        "idBoard": {
+            "required": true,
+            "type": "string"
+        },
+        "idCard": {
+            "required": true,
+            "type": "string"
+        },
+        "attachments": {
+            "required": false,
+            "type": "string"
+        },
+        "attachment_fields": {
+            "required": false,
+            "type": "string",
+            "default": "all"
+        },
+        "actions": {
+            "required": false,
+            "type": "string"
+        },
+        "actions_entities": {
+            "required": false,
+            "type": "string"
+        },
+        "actions_display": {
+            "required": false,
+            "type": "string"
+        },
+        "actions_limit": {
+            "required": false,
+            "type": "string",
+            "default": "50"
+        },
+        "action_fields": {
+            "required": false,
+            "type": "string",
+            "default": "all"
+        },
+        "action_memberCreator_fields": {
+            "required": false,
+            "type": "string",
+            "default": "avatarHash, fullName, initials and username"
+        },
+        "members": {
+            "required": false,
+            "type": "string"
+        },
+        "member_fields": {
+            "required": false,
+            "type": "string",
+            "default": "avatarHash, initials, fullName and username"
+        },
+        "checkItemStates": {
+            "required": false,
+            "type": "string"
+        },
+        "checkItemState_fields": {
+            "required": false,
+            "type": "string",
+            "default": "all"
+        },
+        "labels": {
+            "required": false,
+            "type": "string"
+        },
+        "checklists": {
+            "required": false,
+            "type": "string",
+            "default": "none"
+        },
+        "checklist_fields": {
+            "required": false,
+            "type": "string",
+            "default": "all"
+        },
+        "fields": {
+            "required": false,
+            "type": "string",
+            "default": "all"
+        },
+        "key": {
+            "required": true,
+            "type": "string"
+        },
+        "token": {
+            "required": true,
+            "type": "string"
+        }
+    }
+}

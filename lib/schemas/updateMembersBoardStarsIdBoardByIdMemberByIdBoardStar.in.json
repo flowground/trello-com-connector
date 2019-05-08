@@ -1,0 +1,33 @@
+{
+    "type": "object",
+    "properties": {
+        "idMember": {
+            "required": true,
+            "type": "string"
+        },
+        "idBoardStar": {
+            "required": true,
+            "type": "string"
+        },
+        "key": {
+            "required": true,
+            "type": "string"
+        },
+        "token": {
+            "required": true,
+            "type": "string"
+        },
+        "requestBody": {
+            "properties": {
+                "value": {
+                    "description": "An id",
+                    "type": "string"
+                }
+            },
+            "type": "object",
+            "xml": {
+                "name": "member"
+            }
+        }
+    }
+}

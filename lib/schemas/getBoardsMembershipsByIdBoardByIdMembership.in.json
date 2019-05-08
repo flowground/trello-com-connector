@@ -1,0 +1,30 @@
+{
+    "type": "object",
+    "properties": {
+        "idBoard": {
+            "required": true,
+            "type": "string"
+        },
+        "idMembership": {
+            "required": true,
+            "type": "string"
+        },
+        "member": {
+            "required": false,
+            "type": "string"
+        },
+        "member_fields": {
+            "required": false,
+            "type": "string",
+            "default": "fullName and username"
+        },
+        "key": {
+            "required": true,
+            "type": "string"
+        },
+        "token": {
+            "required": true,
+            "type": "string"
+        }
+    }
+}

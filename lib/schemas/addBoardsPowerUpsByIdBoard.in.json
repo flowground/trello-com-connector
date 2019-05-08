@@ -1,0 +1,29 @@
+{
+    "type": "object",
+    "properties": {
+        "idBoard": {
+            "required": true,
+            "type": "string"
+        },
+        "key": {
+            "required": true,
+            "type": "string"
+        },
+        "token": {
+            "required": true,
+            "type": "string"
+        },
+        "requestBody": {
+            "properties": {
+                "value": {
+                    "description": "One of: calendar, cardAging, recap or voting",
+                    "type": "string"
+                }
+            },
+            "type": "object",
+            "xml": {
+                "name": "board"
+            }
+        }
+    }
+}

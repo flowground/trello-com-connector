@@ -1,0 +1,79 @@
+{
+    "type": "object",
+    "properties": {
+        "idNotification": {
+            "required": true,
+            "type": "string"
+        },
+        "display": {
+            "required": false,
+            "type": "string"
+        },
+        "entities": {
+            "required": false,
+            "type": "string"
+        },
+        "fields": {
+            "required": false,
+            "type": "string",
+            "default": "all"
+        },
+        "memberCreator": {
+            "required": false,
+            "type": "string"
+        },
+        "memberCreator_fields": {
+            "required": false,
+            "type": "string",
+            "default": "avatarHash, fullName, initials and username"
+        },
+        "board": {
+            "required": false,
+            "type": "string"
+        },
+        "board_fields": {
+            "required": false,
+            "type": "string",
+            "default": "name"
+        },
+        "list": {
+            "required": false,
+            "type": "string"
+        },
+        "card": {
+            "required": false,
+            "type": "string"
+        },
+        "card_fields": {
+            "required": false,
+            "type": "string",
+            "default": "name"
+        },
+        "organization": {
+            "required": false,
+            "type": "string"
+        },
+        "organization_fields": {
+            "required": false,
+            "type": "string",
+            "default": "displayName"
+        },
+        "member": {
+            "required": false,
+            "type": "string"
+        },
+        "member_fields": {
+            "required": false,
+            "type": "string",
+            "default": "avatarHash, fullName, initials and username"
+        },
+        "key": {
+            "required": true,
+            "type": "string"
+        },
+        "token": {
+            "required": true,
+            "type": "string"
+        }
+    }
+}

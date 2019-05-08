@@ -1,0 +1,33 @@
+{
+    "type": "object",
+    "properties": {
+        "idSession": {
+            "required": true,
+            "type": "string"
+        },
+        "key": {
+            "required": true,
+            "type": "string"
+        },
+        "token": {
+            "required": true,
+            "type": "string"
+        },
+        "requestBody": {
+            "properties": {
+                "idBoard": {
+                    "description": "The id of the board you&#39;re viewing.  Boards with no viewers will not get updates about members&#39; statuses.",
+                    "type": "string"
+                },
+                "status": {
+                    "description": "One of: active, disconnected or idle",
+                    "type": "string"
+                }
+            },
+            "type": "object",
+            "xml": {
+                "name": "session"
+            }
+        }
+    }
+}

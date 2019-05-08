@@ -1,0 +1,73 @@
+{
+    "type": "object",
+    "properties": {
+        "idOrg": {
+            "required": true,
+            "type": "string"
+        },
+        "key": {
+            "required": true,
+            "type": "string"
+        },
+        "token": {
+            "required": true,
+            "type": "string"
+        },
+        "requestBody": {
+            "properties": {
+                "desc": {
+                    "description": "a string with a length from 0 to 16384",
+                    "type": "string"
+                },
+                "displayName": {
+                    "description": "A string with a length of at least 1.  Cannot begin or end with a space.",
+                    "type": "string"
+                },
+                "name": {
+                    "description": "a string with a length from 0 to 16384",
+                    "type": "string"
+                },
+                "website": {
+                    "description": "A URL starting with http:// or https:// or null",
+                    "type": "string"
+                },
+                "prefs_associatedDomain": {
+                    "description": "The google apps domain to link this org to.",
+                    "type": "string"
+                },
+                "prefs_boardVisibilityRestrict_org": {
+                    "description": "One of: admin, none or org",
+                    "type": "string"
+                },
+                "prefs_boardVisibilityRestrict_private": {
+                    "description": "One of: admin, none or org",
+                    "type": "string"
+                },
+                "prefs_boardVisibilityRestrict_public": {
+                    "description": "One of: admin, none or org",
+                    "type": "string"
+                },
+                "prefs_externalMembersDisabled": {
+                    "description": " true or false",
+                    "type": "string"
+                },
+                "prefs_googleAppsVersion": {
+                    "description": "a number from 1 to 2",
+                    "type": "string"
+                },
+                "prefs_orgInviteRestrict": {
+                    "description": "An email address with optional expansion tokens",
+                    "type": "string"
+                },
+                "prefs_permissionLevel": {
+                    "description": "One of: private or public",
+                    "type": "string"
+                }
+            },
+            "type": "object",
+            "xml": {
+                "name": "organization"
+            }
+        }
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "type": "object",
+    "properties": {
+        "key": {
+            "required": true,
+            "type": "string"
+        },
+        "token": {
+            "required": true,
+            "type": "string"
+        },
+        "requestBody": {
+            "properties": {
+                "idBoard": {
+                    "description": "id of the board that the checklist should be added to",
+                    "type": "string"
+                },
+                "idCard": {
+                    "description": "id of the card that the checklist should be added to",
+                    "type": "string"
+                },
+                "idChecklistSource": {
+                    "description": "The id of the source checklist to copy into a new checklist.",
+                    "type": "string"
+                },
+                "name": {
+                    "description": "a string with a length from 0 to 16384",
+                    "type": "string"
+                },
+                "pos": {
+                    "description": "A position. top , bottom , or a positive number.",
+                    "type": "string"
+                }
+            },
+            "type": "object",
+            "xml": {
+                "name": "checklist"
+            }
+        }
+    }
+}

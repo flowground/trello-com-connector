@@ -1,0 +1,29 @@
+{
+    "type": "object",
+    "properties": {
+        "idWebhook": {
+            "required": true,
+            "type": "string"
+        },
+        "key": {
+            "required": true,
+            "type": "string"
+        },
+        "token": {
+            "required": true,
+            "type": "string"
+        },
+        "requestBody": {
+            "properties": {
+                "value": {
+                    "description": "A valid URL that is reachable with a HEAD request",
+                    "type": "string"
+                }
+            },
+            "type": "object",
+            "xml": {
+                "name": "webhook"
+            }
+        }
+    }
+}

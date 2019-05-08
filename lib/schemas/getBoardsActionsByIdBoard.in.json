@@ -1,0 +1,80 @@
+{
+    "type": "object",
+    "properties": {
+        "idBoard": {
+            "required": true,
+            "type": "string"
+        },
+        "entities": {
+            "required": false,
+            "type": "string"
+        },
+        "display": {
+            "required": false,
+            "type": "string"
+        },
+        "filter": {
+            "required": false,
+            "type": "string",
+            "default": "all"
+        },
+        "fields": {
+            "required": false,
+            "type": "string",
+            "default": "all"
+        },
+        "limit": {
+            "required": false,
+            "type": "string",
+            "default": "50"
+        },
+        "format": {
+            "required": false,
+            "type": "string",
+            "default": "list"
+        },
+        "since": {
+            "required": false,
+            "type": "string"
+        },
+        "before": {
+            "required": false,
+            "type": "string"
+        },
+        "page": {
+            "required": false,
+            "type": "string",
+            "default": "0"
+        },
+        "idModels": {
+            "required": false,
+            "type": "string"
+        },
+        "member": {
+            "required": false,
+            "type": "string"
+        },
+        "member_fields": {
+            "required": false,
+            "type": "string",
+            "default": "avatarHash, fullName, initials and username"
+        },
+        "memberCreator": {
+            "required": false,
+            "type": "string"
+        },
+        "memberCreator_fields": {
+            "required": false,
+            "type": "string",
+            "default": "avatarHash, fullName, initials and username"
+        },
+        "key": {
+            "required": true,
+            "type": "string"
+        },
+        "token": {
+            "required": true,
+            "type": "string"
+        }
+    }
+}

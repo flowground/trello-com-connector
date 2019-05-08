@@ -1,0 +1,37 @@
+{
+    "type": "object",
+    "properties": {
+        "idOrg": {
+            "required": true,
+            "type": "string"
+        },
+        "idMembership": {
+            "required": true,
+            "type": "string"
+        },
+        "key": {
+            "required": true,
+            "type": "string"
+        },
+        "token": {
+            "required": true,
+            "type": "string"
+        },
+        "requestBody": {
+            "properties": {
+                "member_fields": {
+                    "description": "all or a comma-separated list of: avatarHash, bio, bioData, confirmed, fullName, idPremOrgsAdmin, initials, memberType, products, status, url or username",
+                    "type": "string"
+                },
+                "type": {
+                    "description": "One of: admin, normal or observer",
+                    "type": "string"
+                }
+            },
+            "type": "object",
+            "xml": {
+                "name": "organization"
+            }
+        }
+    }
+}

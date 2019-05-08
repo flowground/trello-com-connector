@@ -1,0 +1,29 @@
+{
+    "type": "object",
+    "properties": {
+        "idLabel": {
+            "required": true,
+            "type": "string"
+        },
+        "key": {
+            "required": true,
+            "type": "string"
+        },
+        "token": {
+            "required": true,
+            "type": "string"
+        },
+        "requestBody": {
+            "properties": {
+                "value": {
+                    "description": "A valid label color or null",
+                    "type": "string"
+                }
+            },
+            "type": "object",
+            "xml": {
+                "name": "label"
+            }
+        }
+    }
+}

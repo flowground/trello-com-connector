@@ -1,0 +1,41 @@
+{
+    "type": "object",
+    "properties": {
+        "idBoard": {
+            "required": true,
+            "type": "string"
+        },
+        "idMember": {
+            "required": true,
+            "type": "string"
+        },
+        "key": {
+            "required": true,
+            "type": "string"
+        },
+        "token": {
+            "required": true,
+            "type": "string"
+        },
+        "requestBody": {
+            "properties": {
+                "email": {
+                    "description": "An email address",
+                    "type": "string"
+                },
+                "fullName": {
+                    "description": "A string with a length of at least 1.  Cannot begin or end with a space.",
+                    "type": "string"
+                },
+                "type": {
+                    "description": "One of: admin, normal or observer",
+                    "type": "string"
+                }
+            },
+            "type": "object",
+            "xml": {
+                "name": "board"
+            }
+        }
+    }
+}

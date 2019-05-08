@@ -1,0 +1,29 @@
+{
+    "type": "object",
+    "properties": {
+        "idBoard": {
+            "required": true,
+            "type": "string"
+        },
+        "key": {
+            "required": true,
+            "type": "string"
+        },
+        "token": {
+            "required": true,
+            "type": "string"
+        },
+        "requestBody": {
+            "properties": {
+                "value": {
+                    "description": "A standard background name, or the id of a custom background",
+                    "type": "string"
+                }
+            },
+            "type": "object",
+            "xml": {
+                "name": "board"
+            }
+        }
+    }
+}

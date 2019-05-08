@@ -1,0 +1,132 @@
+{
+    "type": "object",
+    "properties": {
+        "idOrg": {
+            "required": true,
+            "type": "string"
+        },
+        "actions": {
+            "required": false,
+            "type": "string"
+        },
+        "actions_entities": {
+            "required": false,
+            "type": "string"
+        },
+        "actions_display": {
+            "required": false,
+            "type": "string"
+        },
+        "actions_limit": {
+            "required": false,
+            "type": "string",
+            "default": "50"
+        },
+        "action_fields": {
+            "required": false,
+            "type": "string",
+            "default": "all"
+        },
+        "memberships": {
+            "required": false,
+            "type": "string",
+            "default": "none"
+        },
+        "memberships_member": {
+            "required": false,
+            "type": "string"
+        },
+        "memberships_member_fields": {
+            "required": false,
+            "type": "string",
+            "default": "fullName and username"
+        },
+        "members": {
+            "required": false,
+            "type": "string",
+            "default": "none"
+        },
+        "member_fields": {
+            "required": false,
+            "type": "string",
+            "default": "avatarHash, fullName, initials, username and confirmed"
+        },
+        "member_activity": {
+            "required": false,
+            "type": "string"
+        },
+        "membersInvited": {
+            "required": false,
+            "type": "string",
+            "default": "none"
+        },
+        "membersInvited_fields": {
+            "required": false,
+            "type": "string",
+            "default": "avatarHash, initials, fullName and username"
+        },
+        "boards": {
+            "required": false,
+            "type": "string",
+            "default": "none"
+        },
+        "board_fields": {
+            "required": false,
+            "type": "string",
+            "default": "all"
+        },
+        "board_actions": {
+            "required": false,
+            "type": "string"
+        },
+        "board_actions_entities": {
+            "required": false,
+            "type": "string"
+        },
+        "board_actions_display": {
+            "required": false,
+            "type": "string"
+        },
+        "board_actions_format": {
+            "required": false,
+            "type": "string",
+            "default": "list"
+        },
+        "board_actions_since": {
+            "required": false,
+            "type": "string"
+        },
+        "board_actions_limit": {
+            "required": false,
+            "type": "string",
+            "default": "50"
+        },
+        "board_action_fields": {
+            "required": false,
+            "type": "string",
+            "default": "all"
+        },
+        "board_lists": {
+            "required": false,
+            "type": "string",
+            "default": "none"
+        },
+        "paid_account": {
+            "required": false,
+            "type": "string"
+        },
+        "fields": {
+            "required": false,
+            "type": "string",
+            "default": "name, displayName, desc, descData, url, website, logoHash, products and powerUps"
+        },
+        "key": {
+            "required": true,
+            "type": "string"
+        },
+        "token": {
+            "required": true,
+            "type": "string"
+        }
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "type": "object",
+    "properties": {
+        "idMember": {
+            "required": true,
+            "type": "string"
+        },
+        "actions": {
+            "required": false,
+            "type": "string"
+        },
+        "attachments": {
+            "required": false,
+            "type": "string"
+        },
+        "attachment_fields": {
+            "required": false,
+            "type": "string",
+            "default": "all"
+        },
+        "stickers": {
+            "required": false,
+            "type": "string"
+        },
+        "members": {
+            "required": false,
+            "type": "string"
+        },
+        "member_fields": {
+            "required": false,
+            "type": "string",
+            "default": "avatarHash, fullName, initials and username"
+        },
+        "checkItemStates": {
+            "required": false,
+            "type": "string"
+        },
+        "checklists": {
+            "required": false,
+            "type": "string",
+            "default": "none"
+        },
+        "limit": {
+            "required": false,
+            "type": "string"
+        },
+        "since": {
+            "required": false,
+            "type": "string"
+        },
+        "before": {
+            "required": false,
+            "type": "string"
+        },
+        "filter": {
+            "required": false,
+            "type": "string",
+            "default": "visible"
+        },
+        "fields": {
+            "required": false,
+            "type": "string",
+            "default": "all"
+        },
+        "key": {
+            "required": true,
+            "type": "string"
+        },
+        "token": {
+            "required": true,
+            "type": "string"
+        }
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "type": "object",
+    "properties": {
+        "idBoard": {
+            "required": true,
+            "type": "string"
+        },
+        "key": {
+            "required": true,
+            "type": "string"
+        },
+        "token": {
+            "required": true,
+            "type": "string"
+        },
+        "requestBody": {
+            "properties": {
+                "name": {
+                    "description": "a string with a length from 1 to 16384",
+                    "type": "string"
+                },
+                "pos": {
+                    "description": "A position. top , bottom , or a positive number.",
+                    "type": "string"
+                }
+            },
+            "type": "object",
+            "xml": {
+                "name": "board"
+            }
+        }
+    }
+}

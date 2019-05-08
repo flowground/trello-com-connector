@@ -1,0 +1,37 @@
+{
+    "type": "object",
+    "properties": {
+        "idLabel": {
+            "required": true,
+            "type": "string"
+        },
+        "key": {
+            "required": true,
+            "type": "string"
+        },
+        "token": {
+            "required": true,
+            "type": "string"
+        },
+        "requestBody": {
+            "properties": {
+                "color": {
+                    "description": "A valid label color or null",
+                    "type": "string"
+                },
+                "idBoard": {
+                    "description": "An id",
+                    "type": "string"
+                },
+                "name": {
+                    "description": "a string with a length from 0 to 16384",
+                    "type": "string"
+                }
+            },
+            "type": "object",
+            "xml": {
+                "name": "label"
+            }
+        }
+    }
+}

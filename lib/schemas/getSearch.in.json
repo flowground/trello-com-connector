@@ -1,0 +1,104 @@
+{
+    "type": "object",
+    "properties": {
+        "query": {
+            "required": true,
+            "type": "string"
+        },
+        "idBoards": {
+            "required": false,
+            "type": "string",
+            "default": "mine"
+        },
+        "idOrganizations": {
+            "required": true,
+            "type": "string"
+        },
+        "idCards": {
+            "required": false,
+            "type": "string"
+        },
+        "modelTypes": {
+            "required": false,
+            "type": "string",
+            "default": "all"
+        },
+        "board_fields": {
+            "required": false,
+            "type": "string",
+            "default": "name and idOrganization"
+        },
+        "boards_limit": {
+            "required": false,
+            "type": "string",
+            "default": "10"
+        },
+        "card_fields": {
+            "required": false,
+            "type": "string",
+            "default": "all"
+        },
+        "cards_limit": {
+            "required": false,
+            "type": "string",
+            "default": "10"
+        },
+        "cards_page": {
+            "required": false,
+            "type": "string",
+            "default": "0"
+        },
+        "card_board": {
+            "required": false,
+            "type": "string"
+        },
+        "card_list": {
+            "required": false,
+            "type": "string"
+        },
+        "card_members": {
+            "required": false,
+            "type": "string"
+        },
+        "card_stickers": {
+            "required": false,
+            "type": "string"
+        },
+        "card_attachments": {
+            "required": false,
+            "type": "string"
+        },
+        "organization_fields": {
+            "required": false,
+            "type": "string",
+            "default": "name and displayName"
+        },
+        "organizations_limit": {
+            "required": false,
+            "type": "string",
+            "default": "10"
+        },
+        "member_fields": {
+            "required": false,
+            "type": "string",
+            "default": "avatarHash, fullName, initials, username and confirmed"
+        },
+        "members_limit": {
+            "required": false,
+            "type": "string",
+            "default": "10"
+        },
+        "partial": {
+            "required": false,
+            "type": "string"
+        },
+        "key": {
+            "required": true,
+            "type": "string"
+        },
+        "token": {
+            "required": true,
+            "type": "string"
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "name": "trello-com-connector",
+    "version": "1.0.0",
+    "description": "This document describes the REST API of Trello as published by Trello.com.\n - <a href='https://trello.com/docs/index.html' target='_blank'>Official Documentation</a>\n - <a href='https://trello.com/docs/api' target='_blank'>The HTML pages that were scraped in order to generate this specification.</a>",
+    "main": "component.json",
+    "dependencies": {
+        "elasticio-node": "0.0.9",
+        "elasticio-sailor-nodejs": "^2.2.1",
+        "swagger-client": "^3.8.22"
+    },
+    "author": {
+        "name": "Deutsche Telekom AG"
+    },
+    "license": "Apache-2.0"
+}

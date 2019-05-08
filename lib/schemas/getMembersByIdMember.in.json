@@ -1,0 +1,252 @@
+{
+    "type": "object",
+    "properties": {
+        "idMember": {
+            "required": true,
+            "type": "string"
+        },
+        "actions": {
+            "required": false,
+            "type": "string"
+        },
+        "actions_entities": {
+            "required": false,
+            "type": "string"
+        },
+        "actions_display": {
+            "required": false,
+            "type": "string"
+        },
+        "actions_limit": {
+            "required": false,
+            "type": "string",
+            "default": "50"
+        },
+        "action_fields": {
+            "required": false,
+            "type": "string",
+            "default": "all"
+        },
+        "action_since": {
+            "required": false,
+            "type": "string"
+        },
+        "action_before": {
+            "required": false,
+            "type": "string"
+        },
+        "cards": {
+            "required": false,
+            "type": "string",
+            "default": "none"
+        },
+        "card_fields": {
+            "required": false,
+            "type": "string",
+            "default": "all"
+        },
+        "card_members": {
+            "required": false,
+            "type": "string"
+        },
+        "card_member_fields": {
+            "required": false,
+            "type": "string",
+            "default": "avatarHash, fullName, initials and username"
+        },
+        "card_attachments": {
+            "required": false,
+            "type": "string"
+        },
+        "card_attachment_fields": {
+            "required": false,
+            "type": "string",
+            "default": "url and previews"
+        },
+        "card_stickers": {
+            "required": false,
+            "type": "string"
+        },
+        "boards": {
+            "required": false,
+            "type": "string"
+        },
+        "board_fields": {
+            "required": false,
+            "type": "string",
+            "default": "name, closed, idOrganization and pinned"
+        },
+        "board_actions": {
+            "required": false,
+            "type": "string"
+        },
+        "board_actions_entities": {
+            "required": false,
+            "type": "string"
+        },
+        "board_actions_display": {
+            "required": false,
+            "type": "string"
+        },
+        "board_actions_format": {
+            "required": false,
+            "type": "string",
+            "default": "list"
+        },
+        "board_actions_since": {
+            "required": false,
+            "type": "string"
+        },
+        "board_actions_limit": {
+            "required": false,
+            "type": "string",
+            "default": "50"
+        },
+        "board_action_fields": {
+            "required": false,
+            "type": "string",
+            "default": "all"
+        },
+        "board_lists": {
+            "required": false,
+            "type": "string",
+            "default": "none"
+        },
+        "board_memberships": {
+            "required": false,
+            "type": "string",
+            "default": "none"
+        },
+        "board_organization": {
+            "required": false,
+            "type": "string"
+        },
+        "board_organization_fields": {
+            "required": false,
+            "type": "string",
+            "default": "name and displayName"
+        },
+        "boardsInvited": {
+            "required": false,
+            "type": "string"
+        },
+        "boardsInvited_fields": {
+            "required": false,
+            "type": "string",
+            "default": "name, closed, idOrganization and pinned"
+        },
+        "boardStars": {
+            "required": false,
+            "type": "string"
+        },
+        "savedSearches": {
+            "required": false,
+            "type": "string"
+        },
+        "organizations": {
+            "required": false,
+            "type": "string",
+            "default": "none"
+        },
+        "organization_fields": {
+            "required": false,
+            "type": "string",
+            "default": "all"
+        },
+        "organization_paid_account": {
+            "required": false,
+            "type": "string"
+        },
+        "organizationsInvited": {
+            "required": false,
+            "type": "string",
+            "default": "none"
+        },
+        "organizationsInvited_fields": {
+            "required": false,
+            "type": "string",
+            "default": "all"
+        },
+        "notifications": {
+            "required": false,
+            "type": "string"
+        },
+        "notifications_entities": {
+            "required": false,
+            "type": "string"
+        },
+        "notifications_display": {
+            "required": false,
+            "type": "string"
+        },
+        "notifications_limit": {
+            "required": false,
+            "type": "string",
+            "default": "50"
+        },
+        "notification_fields": {
+            "required": false,
+            "type": "string",
+            "default": "all"
+        },
+        "notification_memberCreator": {
+            "required": false,
+            "type": "string"
+        },
+        "notification_memberCreator_fields": {
+            "required": false,
+            "type": "string",
+            "default": "avatarHash, fullName, initials and username"
+        },
+        "notification_before": {
+            "required": false,
+            "type": "string"
+        },
+        "notification_since": {
+            "required": false,
+            "type": "string"
+        },
+        "tokens": {
+            "required": false,
+            "type": "string",
+            "default": "none"
+        },
+        "paid_account": {
+            "required": false,
+            "type": "string"
+        },
+        "boardBackgrounds": {
+            "required": false,
+            "type": "string",
+            "default": "none"
+        },
+        "customBoardBackgrounds": {
+            "required": false,
+            "type": "string",
+            "default": "none"
+        },
+        "customStickers": {
+            "required": false,
+            "type": "string",
+            "default": "none"
+        },
+        "customEmoji": {
+            "required": false,
+            "type": "string",
+            "default": "none"
+        },
+        "fields": {
+            "required": false,
+            "type": "string",
+            "default": "all"
+        },
+        "key": {
+            "required": true,
+            "type": "string"
+        },
+        "token": {
+            "required": true,
+            "type": "string"
+        }
+    }
+}

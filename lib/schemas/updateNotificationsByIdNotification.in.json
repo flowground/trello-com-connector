@@ -1,0 +1,29 @@
+{
+    "type": "object",
+    "properties": {
+        "idNotification": {
+            "required": true,
+            "type": "string"
+        },
+        "key": {
+            "required": true,
+            "type": "string"
+        },
+        "token": {
+            "required": true,
+            "type": "string"
+        },
+        "requestBody": {
+            "properties": {
+                "unread": {
+                    "description": " true or false",
+                    "type": "string"
+                }
+            },
+            "type": "object",
+            "xml": {
+                "name": "notification"
+            }
+        }
+    }
+}

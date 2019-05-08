@@ -1,0 +1,191 @@
+{
+    "type": "object",
+    "properties": {
+        "idBoard": {
+            "required": true,
+            "type": "string"
+        },
+        "actions": {
+            "required": false,
+            "type": "string"
+        },
+        "actions_entities": {
+            "required": false,
+            "type": "string"
+        },
+        "actions_display": {
+            "required": false,
+            "type": "string"
+        },
+        "actions_format": {
+            "required": false,
+            "type": "string",
+            "default": "list"
+        },
+        "actions_since": {
+            "required": false,
+            "type": "string"
+        },
+        "actions_limit": {
+            "required": false,
+            "type": "string",
+            "default": "50"
+        },
+        "action_fields": {
+            "required": false,
+            "type": "string",
+            "default": "all"
+        },
+        "action_member": {
+            "required": false,
+            "type": "string"
+        },
+        "action_member_fields": {
+            "required": false,
+            "type": "string",
+            "default": "avatarHash, fullName, initials and username"
+        },
+        "action_memberCreator": {
+            "required": false,
+            "type": "string"
+        },
+        "action_memberCreator_fields": {
+            "required": false,
+            "type": "string",
+            "default": "avatarHash, fullName, initials and username"
+        },
+        "cards": {
+            "required": false,
+            "type": "string",
+            "default": "none"
+        },
+        "card_fields": {
+            "required": false,
+            "type": "string",
+            "default": "all"
+        },
+        "card_attachments": {
+            "required": false,
+            "type": "string"
+        },
+        "card_attachment_fields": {
+            "required": false,
+            "type": "string",
+            "default": "all"
+        },
+        "card_checklists": {
+            "required": false,
+            "type": "string",
+            "default": "none"
+        },
+        "card_stickers": {
+            "required": false,
+            "type": "string"
+        },
+        "boardStars": {
+            "required": false,
+            "type": "string",
+            "default": "none"
+        },
+        "labels": {
+            "required": false,
+            "type": "string",
+            "default": "none"
+        },
+        "label_fields": {
+            "required": false,
+            "type": "string",
+            "default": "all"
+        },
+        "labels_limit": {
+            "required": false,
+            "type": "string",
+            "default": "50"
+        },
+        "lists": {
+            "required": false,
+            "type": "string",
+            "default": "none"
+        },
+        "list_fields": {
+            "required": false,
+            "type": "string",
+            "default": "all"
+        },
+        "memberships": {
+            "required": false,
+            "type": "string",
+            "default": "none"
+        },
+        "memberships_member": {
+            "required": false,
+            "type": "string"
+        },
+        "memberships_member_fields": {
+            "required": false,
+            "type": "string",
+            "default": "fullName and username"
+        },
+        "members": {
+            "required": false,
+            "type": "string",
+            "default": "none"
+        },
+        "member_fields": {
+            "required": false,
+            "type": "string",
+            "default": "avatarHash, initials, fullName, username and confirmed"
+        },
+        "membersInvited": {
+            "required": false,
+            "type": "string",
+            "default": "none"
+        },
+        "membersInvited_fields": {
+            "required": false,
+            "type": "string",
+            "default": "avatarHash, initials, fullName and username"
+        },
+        "checklists": {
+            "required": false,
+            "type": "string",
+            "default": "none"
+        },
+        "checklist_fields": {
+            "required": false,
+            "type": "string",
+            "default": "all"
+        },
+        "organization": {
+            "required": false,
+            "type": "string"
+        },
+        "organization_fields": {
+            "required": false,
+            "type": "string",
+            "default": "name and displayName"
+        },
+        "organization_memberships": {
+            "required": false,
+            "type": "string",
+            "default": "none"
+        },
+        "myPrefs": {
+            "required": false,
+            "type": "string"
+        },
+        "fields": {
+            "required": false,
+            "type": "string",
+            "default": "name, desc, descData, closed, idOrganization, pinned, url, shortUrl, prefs and labelNames"
+        },
+        "key": {
+            "required": true,
+            "type": "string"
+        },
+        "token": {
+            "required": true,
+            "type": "string"
+        }
+    }
+}

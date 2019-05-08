@@ -1,0 +1,29 @@
+{
+    "type": "object",
+    "properties": {
+        "idOrg": {
+            "required": true,
+            "type": "string"
+        },
+        "key": {
+            "required": true,
+            "type": "string"
+        },
+        "token": {
+            "required": true,
+            "type": "string"
+        },
+        "requestBody": {
+            "properties": {
+                "value": {
+                    "description": "The google apps domain to link this org to.",
+                    "type": "string"
+                }
+            },
+            "type": "object",
+            "xml": {
+                "name": "organization"
+            }
+        }
+    }
+}

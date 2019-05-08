@@ -1,0 +1,29 @@
+{
+    "type": "object",
+    "properties": {
+        "idBoard": {
+            "required": true,
+            "type": "string"
+        },
+        "key": {
+            "required": true,
+            "type": "string"
+        },
+        "token": {
+            "required": true,
+            "type": "string"
+        },
+        "requestBody": {
+            "properties": {
+                "value": {
+                    "description": "One of: private or public",
+                    "type": "string"
+                }
+            },
+            "type": "object",
+            "xml": {
+                "name": "board"
+            }
+        }
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "type": "object",
+    "properties": {
+        "idList": {
+            "required": true,
+            "type": "string"
+        },
+        "key": {
+            "required": true,
+            "type": "string"
+        },
+        "token": {
+            "required": true,
+            "type": "string"
+        },
+        "requestBody": {
+            "properties": {
+                "pos": {
+                    "description": "position of the list on the new board",
+                    "type": "string"
+                },
+                "value": {
+                    "description": "id of the board the list should be moved to",
+                    "type": "string"
+                }
+            },
+            "type": "object",
+            "xml": {
+                "name": "list"
+            }
+        }
+    }
+}

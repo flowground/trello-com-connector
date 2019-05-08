@@ -1,0 +1,37 @@
+{
+    "type": "object",
+    "properties": {
+        "idMember": {
+            "required": true,
+            "type": "string"
+        },
+        "key": {
+            "required": true,
+            "type": "string"
+        },
+        "token": {
+            "required": true,
+            "type": "string"
+        },
+        "requestBody": {
+            "properties": {
+                "brightness": {
+                    "description": "One of: dark, light or unknown",
+                    "type": "string"
+                },
+                "file": {
+                    "description": "A file",
+                    "type": "string"
+                },
+                "tile": {
+                    "description": " true or false",
+                    "type": "string"
+                }
+            },
+            "type": "object",
+            "xml": {
+                "name": "member"
+            }
+        }
+    }
+}

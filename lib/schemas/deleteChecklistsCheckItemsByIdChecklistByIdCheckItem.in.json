@@ -1,0 +1,21 @@
+{
+    "type": "object",
+    "properties": {
+        "idChecklist": {
+            "required": true,
+            "type": "string"
+        },
+        "idCheckItem": {
+            "required": true,
+            "type": "string"
+        },
+        "key": {
+            "required": true,
+            "type": "string"
+        },
+        "token": {
+            "required": true,
+            "type": "string"
+        }
+    }
+}

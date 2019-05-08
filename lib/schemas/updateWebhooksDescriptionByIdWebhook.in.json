@@ -1,0 +1,29 @@
+{
+    "type": "object",
+    "properties": {
+        "idWebhook": {
+            "required": true,
+            "type": "string"
+        },
+        "key": {
+            "required": true,
+            "type": "string"
+        },
+        "token": {
+            "required": true,
+            "type": "string"
+        },
+        "requestBody": {
+            "properties": {
+                "value": {
+                    "description": "a string with a length from 0 to 16384",
+                    "type": "string"
+                }
+            },
+            "type": "object",
+            "xml": {
+                "name": "webhook"
+            }
+        }
+    }
+}

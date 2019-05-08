@@ -1,0 +1,49 @@
+{
+    "type": "object",
+    "properties": {
+        "idCard": {
+            "required": true,
+            "type": "string"
+        },
+        "idChecklistCurrent": {
+            "required": true,
+            "type": "string"
+        },
+        "idCheckItem": {
+            "required": true,
+            "type": "string"
+        },
+        "key": {
+            "required": true,
+            "type": "string"
+        },
+        "token": {
+            "required": true,
+            "type": "string"
+        },
+        "requestBody": {
+            "properties": {
+                "idChecklist": {
+                    "description": "An id, or null",
+                    "type": "string"
+                },
+                "name": {
+                    "description": "a string with a length from 1 to 16384",
+                    "type": "string"
+                },
+                "pos": {
+                    "description": "A position. top , bottom , or a positive number.",
+                    "type": "string"
+                },
+                "state": {
+                    "description": "One of: complete, false, incomplete or true",
+                    "type": "string"
+                }
+            },
+            "type": "object",
+            "xml": {
+                "name": "card"
+            }
+        }
+    }
+}
